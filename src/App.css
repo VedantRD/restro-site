@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Guntur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+body{
+  background-color: #edf2f5;
+  /* font-family: 'Courgette', cursive; */
+  /* font-family: 'Acme', sans-serif; */
+  /* font-family: 'Alegreya Sans', sans-serif; */
+  /* font-family: 'Hind Guntur', sans-serif; */
+  font-family: 'Nunito', sans-serif;
+}
+
+/* -------- Navbar --------- */
+.navStyle{
+  height: 7vh;
+  -webkit-box-shadow: 0 6px 6px -7px black;
+	-moz-box-shadow: 0 6px 6px -7px black;
+  box-shadow: 0 6px 6px -7px black;
+}
+
+@media only screen and (max-width:600px){
+  .navStyle{
+    height: 100%;
+    padding-top: 10px !important;
+  } 
+}
+
+/* ------- customer profile page ------ */
+@media only screen and (max-width:600px){
+  .custom-bg{
+    height: 75vh;
+  }
+}
+
+.profile-pic{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+
+.custom-bg{
+  background-image: url('./assets/luke-chesser-3rWagdKBF7U-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 6px 0 6px -5px black;
+  /* border-radius: 0 5px 5px 0; */
+}
+
+.about{
+  /* font-family: 'Courgette', cursive; */
+  font-size: 18px;
+}
+
+/* ------- order summary page --------- */
+@media only screen and (max-width:600px){
+  .orderedItems{
+    margin-top: -10px !important;
+    padding-right: 0px !important;
+  }
+  .mainContainer{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-top: 10px;
+    padding-bottom: 20px !important;
+  }
+.billInfo{
+  margin-top: 10px !important;
+  margin-bottom: 15px !important;
+}
+
+}
+
+.restaurant-img{
+  /* background-image: url('./assets/restro.jpg'); */
+  height: 60%;
+  width: 100%;
+  background-size: cover;
+}
