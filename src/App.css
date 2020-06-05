@@ -31,7 +31,7 @@ body{
 /* ------- customer profile page ------ */
 @media only screen and (max-width:600px){
   .custom-bg{
-    height: 80vh;
+    height: 85vh;
   }
 }
 
